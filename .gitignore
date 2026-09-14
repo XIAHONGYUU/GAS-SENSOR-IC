@@ -1,0 +1,8 @@
+_build/
+.quarto/
+.cache/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+

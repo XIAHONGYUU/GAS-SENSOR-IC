@@ -1,0 +1,16 @@
+project:
+  type: default
+  output-dir: ../_build
+
+format:
+  revealjs:
+    theme: [default, theme.scss]
+    transition: fade
+    background-transition: fade
+    width: 1920
+    height: 1080
+    margin: 0
+    center: false
+    hash: true
+    embed-resources: true
+

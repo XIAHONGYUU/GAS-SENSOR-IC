@@ -1,0 +1,49 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Aptos", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+$presentation-heading-font: "Aptos Display", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+$presentation-font-size-root: 42px;
+$presentation-heading-color: #112a46;
+$presentation-heading-font-weight: 700;
+$presentation-heading-letter-spacing: -0.035em;
+$body-color: #25364a;
+$background-color: #f8fafc;
+$link-color: #0c7f94;
+
+/*-- scss:rules --*/
+.reveal { color: #25364a; }
+.reveal .slides { text-align: left; }
+.reveal .slides section { height: 100%; padding: 0 !important; }
+.reveal .slides section.present { display: flex !important; flex-direction: column; justify-content: space-between; }
+.deck-mark { margin: 4.6vh 9.2vw 0; color: #16869b; font-size: .52em; font-weight: 800; letter-spacing: .16em; }
+.hero-layout { margin: 3.8vh 9.2vw 0; display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 5vw; }
+.hero-copy h1 { margin: 0; color: #112a46; font-size: 2.35em; line-height: 1.06; letter-spacing: -.06em; }
+.hero-copy h1 span { color: #147f94; }
+.hero-subtitle { margin: .62em 0 1.45em; color: #53657b; font-size: .83em; font-weight: 400; letter-spacing: .015em; }
+.author-line { display: flex; align-items: baseline; gap: 1em; padding-top: 1em; border-top: 2px solid #b9dbe0; color: #607187; font-size: .59em; }
+.author-line strong { color: #183850; font-size: 1.25em; }
+.signal-visual { position: relative; height: 245px; }
+.orb { position: absolute; z-index: 2; width: 126px; height: 126px; display: grid; place-items: center; border-radius: 50%; text-align: center; font-size: .53em; font-weight: 700; line-height: 1.35; }
+.orb-sensor { left: 0; top: 58px; color: #236675; background: #d9eff0; border: 1px solid #a9d9dc; }
+.orb-afe { left: calc(50% - 63px); top: 0; color: #ffffff; background: #167f94; box-shadow: 0 13px 30px rgba(20,127,148,.22); }
+.orb-data { right: 0; top: 86px; color: #4c5074; background: #e9e8f5; border: 1px solid #d2d1ec; }
+.path { position: absolute; z-index: 1; height: 1px; background: #9abec6; transform-origin: left center; }
+.path-one { left: 88px; top: 98px; width: 132px; transform: rotate(-27deg); }
+.path-two { left: 205px; top: 93px; width: 139px; transform: rotate(31deg); }
+.research-line { margin: 3.8vh 9.2vw 0; display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 1.35vw; align-items: center; padding: 1.05em 0; border-top: 1px solid #d3dfe8; border-bottom: 1px solid #d3dfe8; }
+.research-line div { display: flex; flex-direction: column; gap: .34em; }
+.research-line b { color: #143653; font-size: .57em; }
+.research-line span { color: #748396; font-size: .44em; }
+.research-line i { color: #2a9cac; font-style: normal; font-size: .9em; }
+.spec-row { margin: 2.6vh 9.2vw 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.2vw; }
+.spec-row div { padding-left: 1em; border-left: 3px solid #9fd4dc; display: flex; flex-direction: column; gap: .18em; }
+.spec-row div:nth-child(2) { border-color: #8db6c8; }
+.spec-row div:nth-child(3) { border-color: #d8bd84; }
+.spec-row span { color: #198197; font-size: .42em; font-weight: 800; letter-spacing: .08em; }
+.spec-row b { color: #183a56; font-size: .59em; line-height: 1.28; }
+.spec-row small { color: #768498; font-size: .42em; }
+.focus-row { margin: 2.4vh 9.2vw 4.2vh; display: flex; justify-content: space-between; gap: 3vw; color: #65758a; font-size: .47em; }
+.focus-row p { margin: 0; }
+.focus-row span { margin-right: .8em; color: #188197; font-weight: 800; letter-spacing: .1em; }
+.focus-row .boundary { color: #7d6b4b; text-align: right; }
+.focus-row .boundary span { color: #aa7a27; }
+@media (max-width: 900px) { .hero-layout { grid-template-columns: 1fr; gap: 1.4em; } .signal-visual { height: 150px; transform: scale(.72); transform-origin: left top; margin-bottom: -35px; } .research-line, .spec-row { grid-template-columns: 1fr; gap: .6em; } .research-line i { display: none; } .focus-row { flex-direction: column; gap: .8em; } .focus-row .boundary { text-align: left; } }

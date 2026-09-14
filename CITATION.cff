@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "如果本项目对你的研究有帮助，请引用本仓库及对应版本。"
+title: "CMOS-Compatible Gas-Sensor Readout ASIC: Research Concept and Presentation"
+type: dataset
+authors:
+  - family-names: "左"
+    given-names: "凯源"
+version: "0.6-public-candidate"
+date-released: 2026-09-14
+license: CC-BY-4.0
+abstract: "A public research concept, evidence boundary, and Quarto/Reveal.js presentation for CMOS-compatible gas-sensor readout interfaces."
+keywords:
+  - gas sensor
+  - mixed-signal ASIC
+  - analog front end
+  - CMOS
+  - sensor array
+

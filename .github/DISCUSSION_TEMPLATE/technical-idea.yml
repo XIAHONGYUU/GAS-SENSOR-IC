@@ -1,0 +1,21 @@
+title: "[技术讨论] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "请尽量区分来源事实、作者推导和待验证假设。"
+  - type: textarea
+    id: question
+    attributes:
+      label: 想讨论的问题
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 相关证据或实验条件
+  - type: textarea
+    id: boundary
+    attributes:
+      label: 你认为不能外推的范围
+
