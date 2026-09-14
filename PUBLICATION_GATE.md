@@ -1,6 +1,6 @@
 # 公开发布门
 
-当前状态：**CONTENT CLEARED — 等待GitHub登录与远程发布**。
+当前状态：**PUBLISHED**。
 
 公开范围确认：2026-09-14，作者确认专利申请与专业知识产权审查已经完成，并明确选择原样发布HTML。
 
@@ -13,10 +13,16 @@
 - [x] 已核对Berkeley论文为CC BY 4.0，并记录署名与修改说明；
 - [x] 已核对MIT论文为CC BY 4.0，文章页的Fig.1未见单独排除声明；
 - [x] 已通过专业知识产权审查确认公开范围；
-- [ ] GitHub浏览器会话完成登录，并确认实际账户所有者；
+- [x] GitHub账户确认为 `XIAHONGYUU`，SSH认证与网页会话均已核对；
 - [x] 仓库名确认为 `GAS-SENSOR-IC`，最终可见性为公开；
 - [x] 已在公开候选上运行 `scripts/check-release.sh`，定稿30页此前已完成逐页验收。
 
 自动隐私扫描不检查 `site/index.html`，因为该文件按用户要求必须保持原样。其讲者备注、联系方式和嵌入资源必须通过上面的人工门禁单独确认。
 
-该文件用于防止本地候选被误推送。当前只剩GitHub登录和账户核对；完成后即可创建全新远程仓库、推送、启用Pages与Discussions。
+## 发布记录
+
+- 发布日期：2026-09-14
+- GitHub仓库：<https://github.com/XIAHONGYUU/GAS-SENSOR-IC>
+- GitHub Pages：<https://xiahongyuu.github.io/GAS-SENSOR-IC/>
+- GitHub Discussions：<https://github.com/XIAHONGYUU/GAS-SENSOR-IC/discussions>
+- 发布方式：独立新仓库，通过已验证的GitHub SSH密钥推送；未继承内部项目Git历史。

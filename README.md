@@ -6,6 +6,8 @@
 
 ## 在线报告与源文件
 
+- 在线演示：<https://xiahongyuu.github.io/GAS-SENSOR-IC/>
+- GitHub仓库：<https://github.com/XIAHONGYUU/GAS-SENSOR-IC>
 - 完整 HTML：`site/index.html`
 - Quarto 源文件：`quarto-report/full-report.qmd`
 - 样式：`quarto-report/visual-master.scss`、`quarto-report/full-report.scss`
@@ -31,7 +33,7 @@ quarto render quarto-report/full-report.qmd
 
 构建结果写入 `_build/full-report.html`，不会自动覆盖已经验收的 `site/index.html`。只有完成视觉复核和哈希记录后，才应替换公开页面。
 
-仓库包含GitHub Pages工作流，远程仓库完成专利与公开范围审查后，可从 `site/` 发布原样HTML。公开前必须逐项完成 `PUBLICATION_GATE.md`。
+仓库通过GitHub Pages工作流从 `site/` 发布原样HTML。专利、公开范围与发布记录见 `PUBLICATION_GATE.md`。
 
 ## 参与讨论
 

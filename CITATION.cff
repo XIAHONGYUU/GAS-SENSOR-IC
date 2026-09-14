@@ -5,9 +5,11 @@ type: dataset
 authors:
   - family-names: "左"
     given-names: "凯源"
-version: "0.6-public-candidate"
+version: "0.6-public"
 date-released: 2026-09-14
 license: CC-BY-4.0
+url: "https://xiahongyuu.github.io/GAS-SENSOR-IC/"
+repository-code: "https://github.com/XIAHONGYUU/GAS-SENSOR-IC"
 abstract: "A public research concept, evidence boundary, and Quarto/Reveal.js presentation for CMOS-compatible gas-sensor readout interfaces."
 keywords:
   - gas sensor
@@ -15,4 +17,3 @@ keywords:
   - analog front end
   - CMOS
   - sensor array
-
